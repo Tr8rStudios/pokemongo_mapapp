@@ -5,7 +5,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
-
+    <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES" /> <!--This accesses user geolocation form submission-->
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="22" />
