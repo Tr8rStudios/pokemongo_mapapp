@@ -4,10 +4,16 @@ import MapView from 'react-native-maps';
 class MapMyRide extends Component {
   render() {
     return (
-      <MapView
-        style={{height: 200, margin: 40}}
-        showsUserLocation={true}
-      />
+      <MapView showsUserLocation={true} />//shows CurrentLocation
     );
+  }
+}
+
+
+//returns pokemon number
+function convertPokemontoNumber(name) {
+  var lookup = {};
+  for (var i = 0, len = array.length; i < len; i++) {
+      lookup[array[i].id] = array[i];
   }
 }
