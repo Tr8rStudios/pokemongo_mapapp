@@ -1,2 +1,5 @@
-# pokemongo_mapapp
-A Public Map design for Pokemon Go Players
+# PokemonGo Map App
+A Public Map Application designed for Pokemon Go Players
+
+## Programming Notes
+- icons are stored in app for downloading (using KML instead of KMZ)
